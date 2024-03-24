@@ -1,0 +1,111 @@
+.bookedD {
+    gap: 4rem;
+    align-items: center;
+    box-shadow: 0 0 20px -8px var(--color_p2);
+    margin-top: 2rem;
+    padding-top: 4rem;
+}
+
+.formfields {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.inputs .form-group input {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+
+.form-group input::placeholder {
+    color: black;
+    opacity: .8;
+}
+
+.formfields form {
+    padding-top: 1.5rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    width: 70%;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+}
+
+.btn-sub {
+    border: 2px solid var(--color_p2);
+    background-color: var(--color_p2);
+    color: white;
+    padding: .6rem 8rem;
+    border-radius: .3rem;
+}
+
+.btn-sub:hover {
+    background-color: transparent;
+    color: var(--color_p2);
+}
+
+.headline {
+    text-align: center;
+    color: var(--color_p2);
+}
+
+@media screen and (max-width:1200px) {
+    .formfields form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .formfields form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .inputs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .formfields form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .inputs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .formfields form {
+        width: 100%;
+    }
+
+    .textarea {
+        display: block;
+    }
+
+    .btn-sub {
+        padding: .6rem 3rem;
+    }
+    .headline h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        width:90%;
+    }
+}
+
+/*select  */
+
+.form-group select {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}

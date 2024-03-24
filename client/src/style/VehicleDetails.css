@@ -1,0 +1,218 @@
+.booked {
+    box-shadow: 0 0 20px -8px var(--color_p2);
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.truckbooked {
+    gap: 4rem;
+    align-items: center;
+}
+
+.userAdd {
+    align-items: center;
+    font-size: 1.3rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.allDeatils {
+    color: black;
+    padding: 3rem 6rem;
+    border-radius: 1rem;
+}
+
+.allDeatils h3 {
+    color: black;
+}
+
+.userAdd img {
+    border-radius: .3rem;
+    width: 20rem;
+}
+
+.userAdd h6 {
+    color: var(--color_p3);
+}
+
+.MoreVehicale div span {
+    margin-top: 4rem;
+    padding-top: 10rem;
+    color: black;
+}
+
+.detailsV .backend {
+    color: var(--color_p2);
+}
+
+.MoreVehicale {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.addressfull {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.address {
+    padding-top: 8rem;
+}
+
+.last-btn {
+    text-align: center;
+    display: grid;
+    padding-bottom: 6rem;
+}
+
+.last-btn small {
+    color: var(--color_p3);
+    font-size: 1.3rem;
+}
+
+.last-btn small span {
+    font-size: 1rem;
+}
+
+.last-btn button {
+    text-align: center;
+    width: 30rem;
+}
+
+
+.cart-btn {
+    border: 2px solid var(--color_p2);
+    /* background-color: var(--color_p2); */
+    background:var(--color_p2);
+    color:white;
+    padding: .6rem 2rem;
+    border-radius: .3rem;
+}
+
+.last-btn .cart-btn:hover {
+    border: 2px solid var(--color_p2);
+    color: var(--color_p1);
+    background: transparent;
+}
+
+.topheading h3 {
+    padding-top: 4rem;
+    color: var(--color_p3);
+    padding-bottom: 1rem;
+}
+
+.detailstable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.detailstable table {
+    width: 100%;
+    margin: auto;
+}
+
+.detailstable table tr td {
+    padding-top: 1rem;
+}
+
+.comment {
+    color: var(--color_p3);
+}
+
+/* ======== contact css ======== */
+
+
+.container.contact_conatiner {
+    text-align: center;
+    width: 60%;
+}
+
+.contact_conatiner textarea::placeholder {
+    color: black;
+    opacity: .8;
+}
+
+.contact_conatiner form {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact_conatiner input,
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid rgba(77, 181, 255, 0.4);
+    resize: none;
+    color: var(--color_p2);
+}
+
+.btn-save {
+    border: 2px solid var(--color_p2);
+    background: transparent;
+    color: var(--color_p1);
+    padding: .6rem 6rem;
+    border-radius: .3rem;
+}
+
+.btn-save:hover {
+   background-color: var(--color_p2);
+   color: white;
+}
+
+.textcolor {
+    color: var(--color_p1);
+}
+
+
+@media screen and (max-width:1024px) {
+    .container.contact_conatiner {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact_option h6 {
+        font-size: 1.3rem
+    }
+
+    .detailstable {
+        display: block;
+    }
+
+    .container.contact_conatiner {
+        width: 90%;
+    }
+    .last-btn button {
+        text-align: center;
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container.contact_conatiner {
+        width: 90%;
+    }
+    .detailstable table tr td {
+        padding-top: 1rem;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .container.contact_conatiner {
+        width: 100%;
+    }
+}

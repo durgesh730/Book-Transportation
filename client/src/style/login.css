@@ -1,0 +1,199 @@
+
+.PhoneInputInput {
+    border: none;
+  }
+  .PhoneInputInput:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .email-text1 {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .email-text2 {
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .email-text3 {
+    font-size: 14px;
+  }
+  
+  .login-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+  }
+  
+  .left-side {
+    padding: 0;
+    width: 50%;
+    background-color: var(--color_p1);
+    position: relative;
+  }
+
+  .right-side {
+    padding: 0;
+    width: 50%;
+    overflow-y: scroll;
+    height: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-img {
+    padding-top: 8rem;
+    width: 150%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center -90px;
+    mix-blend-mode: soft-light;
+  }
+  
+  .login-footer {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 0 50px;
+    margin-bottom: 50px;
+  }
+  
+  .quote {
+    font-size: 22px;
+    font-weight: 200;
+    margin-right: 20%;
+  }
+  
+  .open-quote {
+    font-size: 80px;
+    position: absolute;
+    top: -60px;
+    height: 50px;
+  }
+  .close-quote {
+    font-size: 80px;
+    position: absolute;
+    bottom: 20px;
+    right: calc(20% + 20px);
+    height: 50px;
+  }
+  
+  .author {
+    margin-top: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    font-size: 22px;
+    padding: 20px 50px;
+    z-index: 99;
+  }
+
+  .top-left i {
+    cursor: pointer;
+  }
+  
+  .three-dots {
+    position: relative;
+    top: 15px;
+    height: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+  }
+  
+  .form-container {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submit-btn {
+    background-color: var(--color_p2);
+    border: var(--color_p2) 2px solid;
+    height: 50px;
+    color: #fff;
+  }
+  .submit-btn:hover {
+    background-color: #fff;
+    border: var(--color_p2) 2px solid;
+    color: var(--color_p2);
+  }
+  
+  .create-btn {
+    background-color: #e543c3;
+    border: #e543c3 2px solid;
+    height: 50px;
+    color: #fff;
+    width: 100%;
+    margin: 30px 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 40px;
+  }
+  .create-btn:hover {
+    background-color: #fff;
+    border: #e543c3 2px solid;
+    color: #e543c3;
+  }
+  
+  .form-logo {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+  
+  .alternate-option {
+    color: var(--color_p2);
+    margin-top: 30px;
+  }
+  
+  .alternate-option b {
+    cursor: pointer;
+  }
+
+
+.form-control option{
+  opacity: .4;
+}
+  
+/* ============= @media =========  */
+
+@media screen and (max-width: 900px) {
+  .right-side {
+    width: 70%;
+  }
+  .left-side {
+    padding: 0;
+    width: 30%;
+  }
+} 
+
+@media screen and (max-width: 800px) {
+  .left-side {
+    display: none;
+  }
+  .right-side {
+    width: 100%;
+  }
+  .form-container {
+    width: 60%;
+  }
+} 
+
+ @media screen and (max-width:400px) {
+  .form-container {
+    width: 100%;
+  }
+ }  

@@ -1,0 +1,54 @@
+.cities-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cities-table table{
+    width:50%;
+    margin: auto;
+}
+
+.btn-cities{
+    background-color: #8443e5;
+    color: white;
+    border: none;
+    padding: .6rem 2rem;
+    border-radius: .3rem;
+}
+
+.modalinput input{
+    width: 30%;
+    border: 1px solid #8443e5;
+    color: #8443e5;
+    font-size: 1.3rem;
+    height: 2.5rem;
+    border-radius: .3rem;
+} 
+
+.modalinput input:hover{
+    border: 2px solid #8443e5;
+}
+
+.modalinput ::placeholder {
+    color:#8443e5;
+    opacity: 1; 
+  }
+
+@media screen and (max-width:900px) {
+    .cities-table{
+        display:block;
+    }
+    .cities-table table{
+        padding-top: 2rem;
+        width:90%;
+    }
+    .modalinput input{
+        width: 80%;
+    } 
+}   
+
+.data-not-found{
+    padding-top: 2rem;
+    color: #8443e5;
+}

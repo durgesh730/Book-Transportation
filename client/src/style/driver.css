@@ -1,0 +1,421 @@
+.driver {
+    background-color: var(--color_p1);
+    width: 300px;
+    min-height: 100vh;
+    position: absolute;
+    text-align: center;
+    padding-top: 2rem;
+    color: #8443e5;
+}
+
+.durgeshdriver {
+    margin-top: 4rem;
+}
+
+.driver .topProfile {
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.driver .pav {
+    padding-top: .8rem;
+    cursor: pointer;
+}
+
+
+.subpages {
+    left: 35%;
+    top: 15%;
+    position: absolute;
+}
+
+.selectedcity {
+    padding-top: .5rem;
+}
+
+/* ======== profile =========   */
+
+.selectedDriverCity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.profileDriver h6 {
+    color: #8443e5;
+}
+
+.profileDriver small {
+    opacity: .3;
+}
+
+.profileDriver form .form-group {
+    padding-top: 1rem;
+}
+
+.profileDriver form .btn-profile {
+    background-color: #8443e5;
+    color: white;
+    padding: .5rem 3rem;
+}
+
+/* =========== card css ============ */
+
+.vehicleInfo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.vehicleUsers {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: scroll;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.vehicleOthers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    margin: auto;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 18rem;
+    height: 24rem;
+    text-align: center;
+    border: none;
+    border: 1px solid var(--color_p2);
+}
+
+.card:hover {
+    box-shadow: 0 0 30px 2px rgba(228, 228, 228, 0.5);
+    border: none;
+}
+
+.vehicleInfo::-webkit-scrollbar {
+    display: none;
+}
+
+.vehicleUsers::-webkit-scrollbar {
+    display: none;
+}
+
+.card img {
+    border-radius: .4rem;
+    margin-top: .5rem;
+    width: 13rem;
+    height: 9rem;
+}
+
+.card .card-body {
+    margin: auto;
+}
+
+.card .card-body .TransName {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.card .card-body .TransName small {
+    color: #8443e5;
+}
+
+.card .card-body small {
+    font-size: .7rem;
+}
+
+.buttons .btn-card {
+    margin-top: 1rem;
+    background-color: #8443e5;
+    color: white;
+    border: none;
+    border-radius: .2rem;
+    padding: .2rem 1rem;
+    font-size: .8rem;
+}
+
+/* upload doc page */
+
+.doc {
+    padding-top: 2rem;
+}
+
+.doc h6 {
+    color: #8443e5;
+    font-size: 1.1rem;
+}
+
+.doc small {
+    opacity: .4;
+}
+
+.uploadtab {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 1rem;
+}
+
+.btn-profile {
+    background-color: #8443e5;
+    color: white;
+    padding: .5rem 3rem;
+}
+
+.address-save-sec {
+    display: none;
+}
+
+
+/* view details page css */
+
+.ManageBoth {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.Alldetails {
+    height: 82vh;
+    width: 150vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 0 15px 5px rgba(228, 228, 228, 0.5);
+}
+
+.showprofile {
+    margin: auto;
+}
+
+.showprofile div small,
+a {
+    color: #8443e5;
+}
+
+.vehicleimg {
+    background-color: white;
+    box-shadow: 0 0 15px 5px rgba(228, 228, 228, 0.5);
+}
+
+.vehicleimg img {
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.imagesText {
+    text-align: center;
+    opacity: .7;
+    /* padding-top: 3rem; */
+    font-size: .8rem;
+}
+
+.transName {
+    padding-top: 1rem;
+}
+
+.smallnav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 4vh;
+    border-bottom: 2px solid rgba(109, 108, 108, 0.5);
+    color: #8443e5;
+}
+
+.smallnav small {
+    cursor: pointer;
+}
+
+.personal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contect {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.addressSection {
+    padding-top: 3rem;
+}
+
+.addressSection div small {
+    color: #8443e5;
+}
+
+.addressSection .locationDetails {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Vehicle {
+    display: grid;
+    padding-top: 3rem;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Vehicle small {
+    color: #8443e5;
+}
+
+.ImagesItem {
+    display: grid;
+    padding-top: 3rem;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.ImagesUpload {
+    gap: 1rem;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.save-btn {
+    border: none;
+    border-radius: .3rem;
+    background-color: #8443e5;
+    color: white;
+    padding: .5rem 3rem;
+}
+
+.save-btn:hover {
+    color: white;
+}
+
+@media screen and (max-width:1400px) {
+    .vehicleOthers {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .vehicleInfo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .vehicleOthers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:900px) {
+    .driver {
+        width: 100%;
+        display: flex;
+        min-height: 2vh;
+        padding: 1rem;
+    }
+
+    .driver .topProfile {
+        display: none;
+    }
+
+    .driver .pav {
+        padding-left: 1rem;
+    }
+
+    .subpages {
+        left: 10%;
+        top: 24%;
+    }
+
+    .selectedDriverCity {
+        display: block;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .vehicleimg {
+        display: none;
+    }
+
+    .smallnav {
+        padding-top: .5rem;
+        grid-template-columns: repeat(2, 1fr);
+        height: 8vh;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .address-save {
+        display: none;
+    }
+
+    .address-save-sec {
+        display: block;
+    }
+    .selectedcity {
+        padding-top: 2rem;
+    }
+
+    .subpages {
+        left: 2%;
+        right: 2%;
+        top: 28%;
+        padding-bottom: 4rem;
+    }
+
+    .driver .pav {
+        padding-left: 0rem;
+    }
+
+    .uploadtab {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Alldetails {
+        width: 100vh;
+    }
+
+    .Vehicle {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contect {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .personal {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ImagesItem {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .personal .form-group {
+        padding-top: .8rem;
+    }
+
+    .contect .form-group {
+        padding-top: .8rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .vehicleInfo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .vehicleOthers {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
