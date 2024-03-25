@@ -6,7 +6,10 @@ require('./src/db/conn')
 
 // cors
 const cors = require('cors')
+// env
 require("dotenv").config();
+
+// server port
 const port = 5000;
 
 app.use(cors())
