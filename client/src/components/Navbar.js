@@ -18,7 +18,6 @@ import TextField from '@material-ui/core/TextField';
 import { serverhost } from '../host';
 
 
-
 const Navbar = () => {
     const context = useContext(driverContext)
     const { editUserProfiledata, data, getData } = context;
